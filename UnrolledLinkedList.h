@@ -1,5 +1,3 @@
-
-
 #pragma once
 #include <stdio.h>
 #include <math.h>
@@ -30,7 +28,6 @@ public:
 	void deleteAt(int pos);
 	void reverse1();
 	
-
 	UnrolledLinkedList(int capacity) {
 		nodeSize = capacity;
 		head = tail = NULL;

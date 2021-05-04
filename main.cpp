@@ -94,5 +94,6 @@ void parseFile(string filename)
 int main()
 {
     parseFile("input.txt");
+
     return 0;
 }
